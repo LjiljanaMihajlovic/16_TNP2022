@@ -3,6 +3,7 @@
 \documentclass[a4paper]{article}
 
 \usepackage{color}
+\usepackage{subcaption}
 \usepackage{url}
 \usepackage[T2A]{fontenc} % enable Cyrillic fonts
 \usepackage[utf8]{inputenc} % make weird characters work
@@ -21,7 +22,7 @@
 
 \title{Medijska pismenost\\ \small{Seminarski rad u okviru kursa\\Tehničko i naučno pisanje\\ Matematički fakultet}}
 
-\author{Ljiljana Mihajlović, mihajlovic.ljiljana.154@gmail.com\\ Danica Šimšić,\\Ana Stevanović, anas2811@gmail.com,\\ Tijana Zečević\\}
+\author{Ljiljana Mihajlović, mihajlovic.ljiljana.154@gmail.com\\ Danica Šimšić, danica.simsic03@gmail.com\\Ana Stevanović, anas2811@gmail.com,\\ Tijana Zečević\\}
 \date{11.~novembar 2022.}
 \maketitle
 
@@ -63,12 +64,27 @@ pojava interneta. Tako su se i tradicionalni mediji veoma brzo
 
 
 \begin{itemize}
-	\item \textbf{Tradicionalnim medijima} smatra se bilo koji vid masovne komunikacije koji je postojao pre nego što je internet stupio na svetsku scenu. Tu se ubrajaju svi vidovi štampanih medija (slika\ref{fig:newspaper}), radio (slika\ref{fig:radio}), televizija (slika\ref{fig:tv}), pošta i poruke na javnim mestima.
+	\item \textbf{Tradicionalnim medijima} smatra se bilo koji vid masovne komunikacije koji je postojao pre nego što je internet stupio na svetsku scenu. Tu se ubrajaju svi vidovi štampanih medija (slika \ref{fig:newspaper}), radio (slika \ref{fig:radio}), televizija (slika \ref{fig:tv}), pošta i poruke na javnim mestima.
 
-	
-	\includegraphics[width=1.3in,height=1.225in]{slika 1.jpg}\label{fig:newspaper}
-	\includegraphics[width=1.3in,height=1.225in]{slika 2.jpg}\label{fig:radio}
-	\includegraphics[width=1.3in,height=1.225in]{slika 3.jpg}\label{fig:tv}
+\begin{figure}[h]
+\begin{center}
+\begin{subcaptiongroup}
+\includegraphics[width=1.3in,height=1.225in]{slika 1.jpg}
+\caption{Štampani mediji}
+\label{fig:newspaper}
+\end{subcaptiongroup}
+\begin{subcaptiongroup}
+	\includegraphics[width=1.3in,height=1.225in]{slika 2.jpg}
+ \caption{Radio}
+ \label{fig:radio}
+\end{subcaptiongroup}
+\begin{subcaptiongroup}
+	\includegraphics[width=1.3in,height=1.225in]{slika 3.jpg}
+ \caption{Televizija}
+ \label{fig:tv}
+\end{subcaptiongroup}
+\end{center}
+ \end{figure}
 
 Kod tradicionalnih medija komunikacija je \textbf{jednosmerna}, odnosno, kreatori medijskih poruka nemaju trenutnu povratnu informaciju o raspoloženju i reakciji koju je plasirana informacija izazvala. Važno je i ko je ciljana publika. Na primer, informacije o Met Gali\footnote{Met Gala je godišnji dobrotvorni događaj koji se organizuje svake godine u cilju prikupljanja novca za godišnju modnu izložbu koju organizuje modno odeljenje Met muzeja } je pogrešno plasirati putem radija, jer neće doći do ciljane publike.
 
@@ -76,7 +92,7 @@ Kod tradicionalnih medija komunikacija je \textbf{jednosmerna}, odnosno, kreator
 Treba imati u vidu da se tradicionalni mediji prilagođavaju životu u eri tehnologije. Skoro svaka tradicionalna medijska kompanija sada ima svoju veb stranicu ili aplikaciju, a često osnivaju i svoje zvanične profile na pojedinim društvenim mrežama, proširujući tako svoj uticaj i na njih.
 
 	
-	\item \textbf{Društveni mediji} su veb lokacije i aplikacije (slika\ref{fig:icons}). Za
+	\item \textbf{Društveni mediji} su veb lokacije i aplikacije (slika \ref{fig:icons}). Za
 	razliku od tradicionalnih medija, komunikacija je \textbf{dvosmerna}, a korisnici
 	društvenih medija mogu sami da kreiraju medijske sadržaje i dele ih sa
 	drugim korisnicima, kao i da jedni drugima šalju poruke kako bi
@@ -172,6 +188,7 @@ U vreme izbijanja kovid pandemije UNESKO (eng. \emph{UNESCO}) je pokrenuo onlajn
 \label{fig:takecarebeforeyoushare}
 \end{figure}
 
+\newpage
 \section{Medijska pismenost u doba informacija}
 \label{sec:naslov4}
 
@@ -198,7 +215,7 @@ Analizu medijskog sadržaja možemo izvršiti praćenjem ovih koraka \cite{tab2}
 \begin{table}[ht!]
 \begin{center}
 \begin{tabular}{|c|p{4cm}|p{3cm} |} \hline
-Ključne reči& Ključna pitanja& Suštinski koncepati\\ \hline
+Ključne reči& Ključna pitanja& Suštinski koncepti\\ \hline
 Autorstvo&Ko je napisao poruku?&Sve medijske poruke su "konstruisane".\\ \hline
 Format &Koje kreativne tehnike se koriste kako bi se privukla moja pažnja?&Medijske poruke su konstruisane upotrebom kreativnog jezika sa sopstevnim pravilima.\\ \hline
 Publika &Kako različiti ljudi mogu ovu poruku razumeti drugačije od mene?&Različiti ljudi doživljavaju istu medijsku poruku na različit način.\\ \hline
@@ -226,8 +243,6 @@ Medijska pismenost je važna zato što nas uči da tumačimo različite vrste me
 
 
 Važno je pomenuti da mediji bitno utiču na uspostavljanje društvenog sistema vrednosti. Medijska pismenost nas uči da razlučimo kojim medijima treba verovati, pa i tada uvek treba proveriti određenu informaciju, pre nego što je objavimo ili podelimo. Cilj je pronaći istinitu, nepristrasnu i potpunu informaciju u moru medijskog sadržaja.
-
-\newpage
 
 \addcontentsline{toc}{section}{Literatura}
 \appendix
