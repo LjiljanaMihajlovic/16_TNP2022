@@ -1,13 +1,18 @@
-\documentclass{beamer}
+\documentclass[13pt]{beamer}
 \usepackage{beamerthemeshadow}
 \usepackage{graphicx}
+\usetheme{Szeged}
 \usepackage{color}
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
 \usepackage{tikz}
 \usepackage[flushleft]{threeparttable}
-\definecolor{beamer@darkred}{rgb}{0.85,0.1,0.1}
-\setbeamercolor{structure}{fg=beamer@darkred}
+\definecolor{bluebell}{rgb}{0.64,0.64,0.82}
+\setbeamercolor{structure}{fg=bluebell}
+\usepackage[english, serbian]{babel}
+\newcommand\Fontvi{\fontsize{8}{9.2}\selectfont}
+\usepackage{array}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
 
 \def\d{{\fontencoding{T1}\selectfont\dj}}
 \def\D{{\fontencoding{T1}\selectfont\DJ}}
@@ -15,7 +20,7 @@
 
 \title{Medijska pismenost}
 \author{Ljiljana Mihajlović, Danica Šimšić,\\ Ana Stevanović, Tijana Zečević}
-\institute{Matematički fakultet\\Univerzitet u Beogradu}
+\institute{Matematički fakultet \\Univerzitet u Beogradu}
 \date{
 	\footnotesize{Beograd, 2022.}	
 }
@@ -29,14 +34,11 @@
 \addtocounter{framenumber}{-1}
 
 \begin{frame}
+\frametitle{Literatura}
 	\begin{itemize}
-		\item Zasnovano na:\\
-		Grupa autora (po azbučnom redu): Vlajković Bojić Violeta, Miladinović Nenad, Milijić Subić Dejana, Milošević Ivana. Priručnik za nastavnike \emph{ Naši učenici u svetu kritičkog mišljenja i medijske pismenosti}.
-		(\url{https://zuov.gov.rs/prirucnik-za-nastavnike-nasi-ucenici-u-svetu-kritickog-misljenja-i-medijske-pismenosti/})
-
-  
-            Nedim Sejdinović i Tatjana Ljubić, \emph{Osnove medijske pismenosti– priručnik za učenike}, 2014.
-            (\url{http://www.medijskapismenost.net/dokument/Osnove-medijske-pismenosti---prirucnik-za-ucenike/})\\
+		\item Zasnovano na seminarskom radu:\\
+		 "\emph{Medijska pismenost} - Ljiljana Mihajlović, Danica Šimšić, Ana Stevanović, Tijana Zečević", koji možete pogledati na narednom linku:\\
+(\url{https:github.com/LjiljanaMihajlovic/16_TNP2022/blob/main/16_MihajlovicStevanovicSimsicZecevic_ispravljeno.pdf})
   
 	\end{itemize}
 \end{frame}
@@ -48,7 +50,7 @@
 
 \section{Tradicionalni i društveni mediji}
 
-\begin{frame}[fragile]\frametitle{Kako ljudi pamte?}
+\begin{frame}[fragile]\frametitle{Tradicionalni i društveni mediji}
 	\begin{itemize}	
 		\item 10\% onoga što pročitaju
 		\item 20\% onoga što čuju
@@ -58,8 +60,6 @@
 		\item 90\% onoga što rade
 	\end{itemize}
 \end{frame}
-
-\section{Spinovanje i manipulacija}
 
 \section{Spinovanje i manipulacija}
 
@@ -108,20 +108,44 @@
 
 \section{Medijska pismenost u doba informacija}
 
-\begin{frame}[fragile]\frametitle{Kako ljudi uče?}
+\begin{frame}[fragile]\frametitle{Medijska pismenost u doba informacija}
 	\begin{itemize}	
-		\item Verbalnim putem (čitanjem i slušanjem)
-		\item Vizuelnim putem (gledanjem)
-		\item Aktivnim učešćem (gledanjem, slušanjem i činjenjem)
+		\item Definicija pismenosti kroz godine
+		\item Medijska pismenost - sposobnost razumevanja,\\ korišćenja i adekvatne interpretacije\\ medijskih poruka
+		\item Vrste pismenosti u digitalnom dobu
+        \item Da li mi biramo informacije \\ili one nas?
 	\end{itemize}
+
+ \begin{tikzpicture}[remember picture, overlay]
+\node[below = 1.8cm, left=0.01cm] at (current page.0)  
+{
+    \includegraphics[width=0.58\textwidth]{literacies.png}
+};
+\end{tikzpicture}
 \end{frame}
 
+\begin{frame}[fragile]\frametitle{Tabela za analizu medijskog sadržaja}
+\Fontvi
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|m{1.5cm}|m{4cm}|m{4cm} |} \hline
+Ključne reči& Ključna pitanja& Suštinski koncepti\\ \hline
+Autorstvo&Ko je napisao poruku?&Sve medijske poruke su "konstruisane".\\ \hline
+Format &Koje kreativne tehnike se koriste kako bi se privukla moja pažnja?&Medijske poruke su konstruisane upotrebom kreativnog jezika sa sopstevnim pravilima.\\ \hline
+Publika &Kako različiti ljudi mogu ovu poruku razumeti drugačije od mene?&Različiti ljudi doživljavaju istu medijsku poruku na različit način.\\ \hline
+Sadržaj &Koje vrednosti, životni stilovi i gledišta se prikazuju ili izostavljaju iz ove poruke?&Svaki medij ima ugrađene vrednosti i tačke gledišta.\\ \hline
+Svrha &Zbog čega se ova poruka šalje?&Večina medijskih poruka je kreirana sa ciljem da ostvari profit i/ili moć.\\ \hline
+\end{tabular}
+\caption{Koraci za analizu medijskog sadržaja}
+\label{tab:tabela2}
+\end{center}
+\end{table}
+\end{frame}
 
-\section{Zakljucak}
+\section{Zaključak}
 
-\begin{frame}[fragile]\frametitle{Kako ljudi uče?}
+\begin{frame}[fragile]\frametitle{Zaključak}
 	\begin{itemize}	
-		\item https://www.overleaf.com/project/6373cb36fddbf10b53a4c45b
 		\begin{itemize}
 			\item samo 8\% poruke se prenese samim rečima (verbalna komunikacija)
 			\item 37\% se prenesi bojom glasa, tonalitetom, pauzama u govoru (paralingvističkim znakovima)
